@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>House Plan Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🏠 House Plan Generator</h1>
+    <form>
+      <label>Total Area (sqft):</label>
+      <input type="number" required>
+
+      <label>Number of Bedrooms:</label>
+      <input type="number" required>
+
+      <label>Number of Bathrooms:</label>
+      <input type="number" required>
+
+      <label>Include Balcony:</label>
+      <select>
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+      </select>
+
+      <label>Include Study Room:</label>
+      <select>
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+      </select>
+
+      <label>Number of Floors:</label>
+      <input type="number" required>
+
+      <button type="submit">Generate Plan</button>
+    </form>
+    <p><i>Note: Kitchen and Living Room are added by default.</i></p>
+  </div>
+</body>
+</html>
